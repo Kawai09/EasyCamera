@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group = 'ru.kawaii.easycameramod'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url = 'https://repo.bstats.org/repository/bstats-repo/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT'
+    implementation 'com.google.guava:guava:32.1.2-jre'
+    implementation 'org.bstats:bstats-bukkit:3.0.2'
+}
+
+jar {
+    archiveBaseName.set('EasyCameraPlugin')
+    archiveVersion.set(project.version)
+}
+
+shadowJar {
+    archiveBaseName.set('EasyCameraPlugin')
+    archiveVersion.set(project.version)
+    relocate 'org.bstats', 'ru.kawaii.easycameramod.spigot.lib.bstats'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    filesMatching('plugin.yml') {
+        expand 'version': project.version
+    }
+} 

@@ -1,0 +1,6 @@
+name: EasyCameraPlugin
+version: '${version}'
+main: ru.kawaii.easycameramod.spigot.EasyCameraModSpigot
+api-version: '1.21'
+author: Kawaii09
+description: Spigot part of the EasyCameraMod. 

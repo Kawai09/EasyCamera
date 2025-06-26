@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"package": "ru.kawaii.easycameramod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

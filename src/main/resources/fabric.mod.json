@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "easycameramod",
+  "version": "1.0.0",
+  "name": "Easy Camera Mod",
+  "description": "Этот мод выводит изображение с вашей вебкамеры в мир над вашей головой, и позволяет другим игрокам на сервере видеть его.",
+  "authors": [
+    "Kawaii09"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/easycameramod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.kawaii.easycameramod.EasyCameraMod"
+    ],
+    "client": [
+      "ru.kawaii.easycameramod.EasyCameraModClient"
+    ],
+    "modmenu": [
+      "ru.kawaii.easycameramod.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "easycameramod.mixins.json",
+    {
+      "config": "easycameramod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.16.0",
+    "minecraft": "~1.21.1",
+    "java": "\u003e\u003d21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

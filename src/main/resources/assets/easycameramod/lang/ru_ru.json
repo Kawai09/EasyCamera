@@ -1,0 +1,56 @@
+{
+  "gui.easycameramod.settings.title": "Настройки Easy Camera",
+  "gui.easycameramod.settings.opening_webcam": "Открытие веб-камеры...",
+  "gui.easycameramod.settings.server_only_error": "Вы можете изменять настройки только на сервере!",
+  "gui.easycameramod.settings.select_webcam": "Выберите вебкамеру",
+  "gui.easycameramod.settings.webcam": "Веб-камера",
+  "gui.easycameramod.settings.not_selected": "Не выбрано",
+
+  "gui.easycameramod.settings.camera_indicator": "Индикатор",
+  "gui.easycameramod.settings.camera_indicator.none": "Выкл",
+  "gui.easycameramod.settings.camera_indicator.top_left": "Сверху слева",
+  "gui.easycameramod.settings.camera_indicator.top_right": "Сверху справа",
+  "gui.easycameramod.settings.camera_indicator.bottom_left": "Снизу слева",
+  "gui.easycameramod.settings.camera_indicator.bottom_right": "Снизу справа",
+
+  "gui.easycameramod.settings.display_mode": "Режим отображения",
+  "gui.easycameramod.settings.display_mode.stretch_fill": "Растянуть",
+  "gui.easycameramod.settings.display_mode.stretch_fill.tooltip": "Растягивает изображение с веб-камеры, чтобы заполнить круг.",
+  "gui.easycameramod.settings.display_mode.crop_box": "Обрезать",
+  "gui.easycameramod.settings.display_mode.crop_box.tooltip": "Обрезает и масштабирует изображение с веб-камеры внутри круга.",
+
+  "gui.easycameramod.settings.crop_x": "Смещение по X",
+  "gui.easycameramod.settings.crop_y": "Смещение по Y",
+  "gui.easycameramod.settings.zoom": "Приближение",
+  "gui.easycameramod.settings.crop_x_value": "X: %s",
+  "gui.easycameramod.settings.crop_y_value": "Y: %s",
+  "gui.easycameramod.settings.zoom_value": "Приближение: %s",
+
+  "gui.easycameramod.settings.offset_x": "Смещение в мире по X",
+  "gui.easycameramod.settings.offset_y": "Смещение в мире по Y",
+  "gui.easycameramod.settings.offset_z": "Смещение в мире по Z",
+  "gui.easycameramod.settings.scale": "Размер в мире",
+  "gui.easycameramod.settings.offset_x_value": "Смещение X: %s",
+  "gui.easycameramod.settings.offset_y_value": "Смещение Y: %s",
+  "gui.easycameramod.settings.offset_z_value": "Смещение Z: %s",
+  "gui.easycameramod.settings.scale_value": "Размер: %s",
+
+  "key.easycameramod.settings": "Настройки Easy Camera",
+  "category.easycameramod.main": "Easy Camera Mod",
+  "key.easycameramod.mute_screen": "Скрыть/Показать камеры игроков",
+
+  "gui.on": "Вкл",
+  "gui.off": "Выкл",
+  "gui.done": "Готово",
+
+  "gui.easycameramod.mute.title": "Управление камерами игроков",
+  "gui.easycameramod.mute.search": "Поиск...",
+  "gui.easycameramod.mute.hide": "Скрыть",
+  "gui.easycameramod.mute.show": "Показать",
+
+  "gui.easycameramod.settings.manage_players": "Управление камерами",
+  "gui.easycameramod.settings.no_webcam_found": "Веб-камеры не найдены",
+  "gui.easycameramod.settings.indicator_scale": "Размер индикатора",
+  "gui.easycameramod.settings.indicator_scale_value": "Размер: %s",
+  "gui.easycameramod.settings.in_world_rendering": "Отображение в мире"
+}

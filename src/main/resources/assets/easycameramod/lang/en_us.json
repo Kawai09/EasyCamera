@@ -1,0 +1,56 @@
+{
+  "key.easycameramod.settings": "Easy Camera Settings",
+  "category.easycameramod.main": "Easy Camera Mod",
+
+  "gui.easycameramod.settings.title": "Easy Camera Settings",
+  "gui.easycameramod.settings.server_only_error": "You can only change settings on the server!",
+  "gui.easycameramod.settings.opening_webcam": "Opening webcam...",
+  "gui.easycameramod.settings.select_webcam": "Select Webcam",
+  "gui.easycameramod.settings.webcam": "Webcam",
+
+  "gui.on": "ON",
+  "gui.off": "OFF",
+  "gui.done": "Done",
+
+  "gui.easycameramod.settings.camera_indicator": "Indicator",
+  "gui.easycameramod.settings.camera_indicator.none": "Off",
+  "gui.easycameramod.settings.camera_indicator.top_left": "Top Left",
+  "gui.easycameramod.settings.camera_indicator.top_right": "Top Right",
+  "gui.easycameramod.settings.camera_indicator.bottom_left": "Bottom Left",
+  "gui.easycameramod.settings.camera_indicator.bottom_right": "Bottom Right",
+
+  "gui.easycameramod.settings.display_mode": "Display Mode",
+  "gui.easycameramod.settings.display_mode.stretch_fill": "Stretch",
+  "gui.easycameramod.settings.display_mode.stretch_fill.tooltip": "Stretches the webcam feed to fill the circle.",
+  "gui.easycameramod.settings.display_mode.crop_box": "Crop",
+  "gui.easycameramod.settings.display_mode.crop_box.tooltip": "Crops and pans the webcam feed inside the circle.",
+
+  "gui.easycameramod.settings.not_selected": "Not Selected",
+
+  "gui.easycameramod.settings.crop_x": "X Offset",
+  "gui.easycameramod.settings.crop_y": "Y Offset",
+  "gui.easycameramod.settings.zoom": "Zoom",
+  "gui.easycameramod.settings.crop_x_value": "X: %s",
+  "gui.easycameramod.settings.crop_y_value": "Y: %s",
+  "gui.easycameramod.settings.zoom_value": "Zoom: %s",
+
+  "gui.easycameramod.settings.offset_x": "World X Offset",
+  "gui.easycameramod.settings.offset_y": "World Y Offset",
+  "gui.easycameramod.settings.offset_z": "World Z Offset",
+  "gui.easycameramod.settings.scale": "World Scale",
+  "gui.easycameramod.settings.offset_x_value": "X Offset: %s",
+  "gui.easycameramod.settings.offset_y_value": "Y Offset: %s",
+  "gui.easycameramod.settings.offset_z_value": "Z Offset: %s",
+  "gui.easycameramod.settings.scale_value": "Scale: %s",
+
+  "key.easycameramod.mute_screen": "Mute/Unmute Player Cameras",
+  "gui.easycameramod.mute.title": "Mute Player Cameras",
+  "gui.easycameramod.mute.search": "Search...",
+  "gui.easycameramod.mute.hide": "Hide",
+  "gui.easycameramod.mute.show": "Show",
+  "gui.easycameramod.settings.manage_players": "Manage Players",
+  "gui.easycameramod.settings.no_webcam_found": "No webcams found",
+  "gui.easycameramod.settings.indicator_scale": "Indicator Scale",
+  "gui.easycameramod.settings.indicator_scale_value": "Scale: %s",
+  "gui.easycameramod.settings.in_world_rendering": "In-World Display"
+} 
