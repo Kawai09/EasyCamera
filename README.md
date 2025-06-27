@@ -1,8 +1,6 @@
 # Easy Camera Mod
 
-![GitHub release](https://img.shields.io/github/v/release/Kawai09/EasyCamera)
-![GitHub build](https://img.shields.io/github/actions/workflow/status/Kawai09/EasyCamera/build.yml)
-![Modrinth](https://img.shields.io/modrinth/dt/easy-camera-mod?color=00AF5C&label=downloads&logo=modrinth)
+![Modrinth](https://img.shields.io/modrinth/dt/easycamera?color=00AF5C&label=downloads&logo=modrinth)
 
 A Minecraft mod that allows players to stream their webcam in-game, displaying it as a circle above their head and on the HUD. This project consists of a **Fabric mod** for the client and a **Spigot plugin** for the server to enable server-side control and communication.
 
