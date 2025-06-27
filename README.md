@@ -8,7 +8,7 @@ A Minecraft mod that allows players to stream their webcam in-game, displaying i
 
 ## ✨ Inspiration
 
-This project was heavily inspired by the unique webcam feature of the **FreakLand** server. The goal was to recreate and improve upon that idea, making it available for broader use on modern Fabric (client) and Spigot-based (server) platforms.
+This project was heavily inspired by the unique webcam feature seen on the FreakLand server. My goal was to recreate and improve upon that amazing idea, making it available for everyone to enjoy on their own Fabric and Spigot servers.
 
 ## 🚀 Features
 
