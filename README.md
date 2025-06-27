@@ -37,7 +37,7 @@ You need to install the Fabric mod to see and broadcast webcams.
 
 You need to install the Spigot plugin to enable communication between clients.
 
-1.  Ensure your server is running a Spigot-compatible version (like Spigot, Paper, or Purpur).
+1.  Ensure your server is running a Spigot-compatible version (like Spigot, Paper, Purpur, etc.).
 2.  Download the latest **Spigot plugin `.jar`** file from the [Modrinth Page](https://modrinth.com/plugin/easycamera).
 3.  Place the `.jar` file into your server's `plugins` folder.
 4.  Restart or reload your server.
@@ -46,23 +46,26 @@ You need to install the Spigot plugin to enable communication between clients.
 
 If you want to compile the project yourself, follow these steps:
 
-1.  **Clone the repository:**
+1.  **Prerequisites:**
+    - You will need **Gradle 8.8** installed to build the project.
+
+2.  **Clone the repository:**
     ```sh
     git clone https://github.com/Kawai09/EasyCamera.git
     cd EasyCamera
     ```
 
-2.  **Build the project:**
+3.  **Build the project:**
     - On Windows:
       ```sh
       gradle build
       ```
     - On macOS/Linux:
       ```sh
-      ./gradlew build
+      gradle build
       ```
 
-3.  The compiled `.jar` files will be located in:
+4.  The compiled `.jar` files will be located in:
     - `build/libs/` for the Fabric mod.
     - `spigot/build/libs/` for the Spigot plugin.
 
