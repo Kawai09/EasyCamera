@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "easycameramod",
-  "version": "1.0.0",
+  "version": "1.0",
   "name": "Easy Camera Mod",
   "description": "Этот мод выводит изображение с вашей вебкамеры в мир над вашей головой, и позволяет другим игрокам на сервере видеть его.",
   "authors": [
