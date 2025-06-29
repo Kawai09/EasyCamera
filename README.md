@@ -18,7 +18,7 @@ This project was heavily inspired by the unique webcam feature seen on the Freak
 - **Mute System**: Easily mute/unmute other players' webcams through a simple UI (', COMMA' key by default).
 - **Server-Side Control**: The Spigot plugin allows servers to manage which players' data is broadcast.
 - **Performance Optimized**: Lightweight and designed to minimize network and client-side lag.
-- **Configurable Keybinds**: Change the keybinds for settings (', COMMA') and the mute menu ('. PERIOD') in Minecraft's controls menu.
+- **Configurable Keybinds**: Change the keybinds for settings (. PERIOD') and the mute menu (', COMMA') in Minecraft's controls menu.
 
 ## 🔧 Installation & Usage
 
