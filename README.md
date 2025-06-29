@@ -15,10 +15,10 @@ This project was heavily inspired by the unique webcam feature seen on the Freak
 - **Real-time Webcam Streaming**: Broadcast your webcam directly into the game.
 - **In-Game Player Indicator**: See a circle with the player's webcam feed right above their head.
 - **Customizable HUD**: Display your own or another player's webcam in a customizable circle on your screen.
-- **Mute System**: Easily mute/unmute other players' webcams through a simple UI ('I' key by default).
+- **Mute System**: Easily mute/unmute other players' webcams through a simple UI (', COMMA' key by default).
 - **Server-Side Control**: The Spigot plugin allows servers to manage which players' data is broadcast.
 - **Performance Optimized**: Lightweight and designed to minimize network and client-side lag.
-- **Configurable Keybinds**: Change the keybinds for settings ('O') and the mute menu ('I') in Minecraft's controls menu.
+- **Configurable Keybinds**: Change the keybinds for settings (', COMMA') and the mute menu ('. PERIOD') in Minecraft's controls menu.
 
 ## 🔧 Installation & Usage
 
