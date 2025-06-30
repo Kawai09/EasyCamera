@@ -47,7 +47,7 @@ You need to install the Spigot plugin to enable communication between clients.
 If you want to compile the project yourself, follow these steps:
 
 1.  **Prerequisites:**
-    - You will need **Gradle 8.8** installed to build the project.
+    - You will need **Gradle 8.14.2** installed to build the project.
 
 2.  **Clone the repository:**
     ```sh
